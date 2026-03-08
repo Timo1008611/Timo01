@@ -47,14 +47,11 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 3.8免费节点
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+    type: ss
+    server: iepl.huli168.com
+    port: 19822
+    cipher: aes-256-gcm
+    password: g4JtpkuxkwRH4jhj
   - name: 3.8免费节点_1
     type: vmess
     server: v12.hdacd.com
@@ -66,14 +63,22 @@ proxies:
     skip-cert-verify: false
   - name: 3.8免费节点_2
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_3
+    type: trojan
+    server: 58.152.25.253
+    port: 443
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: false
+  - name: 3.8免费节点_4
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -82,18 +87,6 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_4
-    type: vless
-    server: 198.62.62.124
-    port: 443
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    network: ws
-    servername: war.connecticut-haloo.info
-    tls: true
-    ws-opts:
-      path: /love
-      headers:
-        Host: war.connecticut-haloo.info
   - name: 3.8免费节点_5
     type: vmess
     server: v12.hdacd.com
@@ -104,11 +97,14 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_6
-    type: ss
-    server: iepl.huli168.com
-    port: 19822
-    cipher: aes-256-gcm
-    password: g4JtpkuxkwRH4jhj
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 3.8免费节点_7
     type: vmess
     server: v12.hdacd.com
@@ -119,17 +115,14 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_8
-    type: vless
-    server: 198.62.62.235
-    port: 443
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    network: ws
-    servername: bank.alaska-tigr.info
-    tls: true
-    ws-opts:
-      path: /love
-      headers:
-        Host: bank.alaska-tigr.info
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 3.8免费节点_9
     type: vmess
     server: v12.hdacd.com
@@ -141,10 +134,10 @@ proxies:
     skip-cert-verify: false
   - name: 3.8免费节点_10
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    server: 103.181.164.237
+    port: 34114
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -194,23 +187,20 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_16
-    type: vless
-    server: 198.62.62.248
-    port: 443
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    network: ws
-    servername: tar.alabama-tigr.info
-    tls: true
-    ws-opts:
-      path: /love
-      headers:
-        Host: tar.alabama-tigr.info
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 3.8免费节点_17
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
+    server: v12.hdacd.com
+    port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -243,10 +233,10 @@ proxies:
     skip-cert-verify: false
   - name: 3.8免费节点_21
     type: vmess
-    server: 103.181.164.237
-    port: 34114
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -270,8 +260,8 @@ proxies:
     skip-cert-verify: false
   - name: 3.8免费节点_24
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
+    server: v30.hdacd.com
+    port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
@@ -279,6 +269,15 @@ proxies:
     skip-cert-verify: false
   - name: 3.8免费节点_25
     type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 3.8免费节点_26
+    type: vmess
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -286,24 +285,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_26
-    type: vmess
-    server: 94.247.142.199
-    port: 443
-    uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      headers:
-        Host: ous3.dean52.top
   - name: 3.8免费节点_27
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
+    server: v30.hdacd.com
+    port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
@@ -319,11 +304,14 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_29
-    type: ss
-    server: chengbai02.ascwt179.com
-    port: 13223
-    cipher: aes-128-gcm
-    password: JVrsLLN1tkN8oXZO
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 3.8免费节点_30
     type: vmess
     server: v12.hdacd.com
@@ -334,19 +322,32 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 3.8免费节点_31
-    type: trojan
-    server: eefrt.890699.xyz
-    port: 443
-    password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-    sni: eEFRt.890699.xyz
-    alpn:
-      - http/1.1
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /Klh0x8wtLpTGA5AqzZ2Mj
-      headers:
-        Host: eEFRT.890699.xyZ
+  - name: 3.8免费节点_32
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 3.8免费节点_33
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -385,6 +386,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
   - name: ♻️ 自动选择
     type: url-test
     proxies:
@@ -420,6 +423,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -461,6 +466,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
   - name: 📲 电报信息
     type: select
     proxies:
@@ -498,6 +505,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -535,6 +544,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -572,6 +583,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -626,6 +639,8 @@ proxy-groups:
       - 3.8免费节点_29
       - 3.8免费节点_30
       - 3.8免费节点_31
+      - 3.8免费节点_32
+      - 3.8免费节点_33
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -702,4 +717,3 @@ rules:
   - RULE-SET,ChinaCompanyIp,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
