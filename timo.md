@@ -46,39 +46,22 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 3.8免费节点
-    type: ss
-    server: iepl.huli168.com
-    port: 19822
-    cipher: aes-256-gcm
-    password: g4JtpkuxkwRH4jhj
-  - name: 3.8免费节点_1
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_2
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_3
+  - name: 3.9免费节点
     type: trojan
-    server: 58.152.25.253
+    server: 166.88.130.226
     port: 443
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
+    password: adb13850-7e70-492e-85b2-01184801d587
+    sni: ca05.oportal.cc
     skip-cert-verify: true
     tls: false
-  - name: 3.8免费节点_4
+  - name: 3.9免费节点_1
+    type: trojan
+    server: 8443.golden-cards.me
+    port: 443
+    password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+    skip-cert-verify: true
+    tls: false
+  - name: 3.9免费节点_2
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -87,52 +70,16 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_5
+  - name: 3.9免费节点_3
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
+    server: v30.hdacd.com
+    port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_6
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_7
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_8
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_9
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_10
+  - name: 3.9免费节点_4
     type: vmess
     server: 103.181.164.237
     port: 34114
@@ -141,210 +88,41 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_11
+  - name: 3.9免费节点_5
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.8免费节点_12
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
+  - name: 3.9免费节点_6
+    type: trojan
+    server: 58.152.25.253
+    port: 443
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
     tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_13
+  - name: 3.9免费节点_7
+    type: ss
+    server: slur.izenny.com
+    port: 40063
+    cipher: chacha20-ietf-poly1305
+    password: d3a07498-7bcf-48b0-a6ed-8dbda2451c7d
+  - name: 3.9免费节点_8
+    type: ss
+    server: iepl.huli168.com
+    port: 19822
+    cipher: aes-256-gcm
+    password: g4JtpkuxkwRH4jhj
+  - name: 3.9免费节点_9
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_14
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_15
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_16
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_17
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_18
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_19
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_20
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_21
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_22
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_23
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_24
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_25
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
+    server: v8.hdacd.com
+    port: 30808
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_26
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_27
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_28
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_29
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_30
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_31
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_32
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 3.8免费节点_33
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -354,77 +132,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -434,157 +164,61 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -607,40 +241,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 3.8免费节点
-      - 3.8免费节点_1
-      - 3.8免费节点_2
-      - 3.8免费节点_3
-      - 3.8免费节点_4
-      - 3.8免费节点_5
-      - 3.8免费节点_6
-      - 3.8免费节点_7
-      - 3.8免费节点_8
-      - 3.8免费节点_9
-      - 3.8免费节点_10
-      - 3.8免费节点_11
-      - 3.8免费节点_12
-      - 3.8免费节点_13
-      - 3.8免费节点_14
-      - 3.8免费节点_15
-      - 3.8免费节点_16
-      - 3.8免费节点_17
-      - 3.8免费节点_18
-      - 3.8免费节点_19
-      - 3.8免费节点_20
-      - 3.8免费节点_21
-      - 3.8免费节点_22
-      - 3.8免费节点_23
-      - 3.8免费节点_24
-      - 3.8免费节点_25
-      - 3.8免费节点_26
-      - 3.8免费节点_27
-      - 3.8免费节点_28
-      - 3.8免费节点_29
-      - 3.8免费节点_30
-      - 3.8免费节点_31
-      - 3.8免费节点_32
-      - 3.8免费节点_33
+      - 3.9免费节点
+      - 3.9免费节点_1
+      - 3.9免费节点_2
+      - 3.9免费节点_3
+      - 3.9免费节点_4
+      - 3.9免费节点_5
+      - 3.9免费节点_6
+      - 3.9免费节点_7
+      - 3.9免费节点_8
+      - 3.9免费节点_9
 rule-providers:
   LocalAreaNetwork:
     type: http
