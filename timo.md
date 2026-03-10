@@ -46,22 +46,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 3.9免费节点
-    type: trojan
-    server: 166.88.130.226
-    port: 443
-    password: adb13850-7e70-492e-85b2-01184801d587
-    sni: ca05.oportal.cc
-    skip-cert-verify: true
-    tls: false
-  - name: 3.9免费节点_1
-    type: trojan
-    server: 8443.golden-cards.me
-    port: 443
-    password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-    skip-cert-verify: true
-    tls: false
-  - name: 3.9免费节点_2
+  - name: 3.10免费节点
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -70,7 +55,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.9免费节点_3
+  - name: 3.10免费节点_1
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -79,7 +64,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.9免费节点_4
+  - name: 3.10免费节点_2
     type: vmess
     server: 103.181.164.237
     port: 34114
@@ -88,7 +73,16 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.9免费节点_5
+  - name: 3.10免费节点_3
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 3.10免费节点_4
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -97,64 +91,204 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 3.9免费节点_6
-    type: trojan
-    server: 58.152.25.253
-    port: 443
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: false
-  - name: 3.9免费节点_7
-    type: ss
-    server: slur.izenny.com
-    port: 40063
-    cipher: chacha20-ietf-poly1305
-    password: d3a07498-7bcf-48b0-a6ed-8dbda2451c7d
-  - name: 3.9免费节点_8
+  - name: 3.10免费节点_5
     type: ss
     server: iepl.huli168.com
     port: 19822
     cipher: aes-256-gcm
     password: g4JtpkuxkwRH4jhj
-  - name: 3.9免费节点_9
+  - name: 3.10免费节点_6
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: ncgddx.gdsxrk.com
+    port: 25210
+    uuid: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
+  - name: 3.10免费节点_7
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 19213
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_8
+    type: ss
+    server: ncgdyd.gdsxrk.com
+    port: 21313
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_9
+    type: ss
+    server: ncgdyd.gdsxrk.com
+    port: 21310
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_10
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 19217
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_11
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 19211
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_12
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25311
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_13
+    type: ss
+    server: ncgdyd.gdsxrk.com
+    port: 21317
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_14
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25314
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_15
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25312
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_16
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25322
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_17
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 19216
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_18
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25323
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_19
+    type: ss
+    server: ncgdyd.gdsxrk.com
+    port: 21316
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_20
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 19220
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_21
+    type: ss
+    server: ncgdyd.gdsxrk.com
+    port: 21320
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_22
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25317
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_23
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25318
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_24
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25316
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_25
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25319
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+  - name: 3.10免费节点_26
+    type: ss
+    server: ncgddx.gdsxrk.com
+    port: 25313
+    cipher: chacha20-ietf-poly1305
+    password: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -164,61 +298,129 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -241,16 +443,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 3.9免费节点
-      - 3.9免费节点_1
-      - 3.9免费节点_2
-      - 3.9免费节点_3
-      - 3.9免费节点_4
-      - 3.9免费节点_5
-      - 3.9免费节点_6
-      - 3.9免费节点_7
-      - 3.9免费节点_8
-      - 3.9免费节点_9
+      - 3.10免费节点
+      - 3.10免费节点_1
+      - 3.10免费节点_2
+      - 3.10免费节点_3
+      - 3.10免费节点_4
+      - 3.10免费节点_5
+      - 3.10免费节点_6
+      - 3.10免费节点_7
+      - 3.10免费节点_8
+      - 3.10免费节点_9
+      - 3.10免费节点_10
+      - 3.10免费节点_11
+      - 3.10免费节点_12
+      - 3.10免费节点_13
+      - 3.10免费节点_14
+      - 3.10免费节点_15
+      - 3.10免费节点_16
+      - 3.10免费节点_17
+      - 3.10免费节点_18
+      - 3.10免费节点_19
+      - 3.10免费节点_20
+      - 3.10免费节点_21
+      - 3.10免费节点_22
+      - 3.10免费节点_23
+      - 3.10免费节点_24
+      - 3.10免费节点_25
+      - 3.10免费节点_26
 rule-providers:
   LocalAreaNetwork:
     type: http
